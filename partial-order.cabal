@@ -1,5 +1,5 @@
 name:                partial-order
-version:             0.1.0
+version:             0.1.2
 synopsis:            Provides typeclass suitable for types admitting a partial order
 description:         This packages provides the PartialOrd typeclass suitable for
                      types admitting a partial order.
