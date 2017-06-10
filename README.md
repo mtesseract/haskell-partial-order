@@ -1,4 +1,4 @@
-# partial-order [![Hackage version](https://img.shields.io/hackage/v/partial-order.svg?label=Hackage)](https://hackage.haskell.org/package/partial-order) [![Stackage version](https://www.stackage.org/package/partial-order/badge/lts?label=Stackage)](https://www.stackage.org/package/partial-order) [![Build Status](https://travis-ci.org/mtesseract/partial-order.svg?branch=master)](https://travis-ci.org/mtesseract/partial-order)
+# partial-order [![Hackage version](https://img.shields.io/hackage/v/partial-order.svg?label=Hackage)](https://hackage.haskell.org/package/partial-order) [![Stackage version](https://www.stackage.org/package/partial-order/badge/lts?label=Stackage)](https://www.stackage.org/package/partial-order) [![Build Status](https://travis-ci.org/mtesseract/haskell-partial-order.svg?branch=master)](https://travis-ci.org/mtesseract/haskell-partial-order)
 
 ### About
 
