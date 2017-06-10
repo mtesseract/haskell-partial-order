@@ -1,7 +1,6 @@
-# partial-order
+# partial-order [![Hackage version](https://img.shields.io/hackage/v/partial-order.svg?label=Hackage)](https://hackage.haskell.org/package/partial-order) [![Stackage version](https://www.stackage.org/package/partial-order/badge/lts?label=Stackage)](https://www.stackage.org/package/partial-order) [![Build Status](https://travis-ci.org/mtesseract/partial-order.svg?branch=master)](https://travis-ci.org/mtesseract/partial-order)
 
-About
-=====
+### About
 
 This packages provides the PartialOrd typeclass suitable for types
 admitting a partial order. 
@@ -36,14 +35,12 @@ Also, we have:
 
   [1, 2, 3] == [3, 1, 2]
 
-Contact
-=======
+### Contact
 
 In case of questions, feel free to contact the maintainer Moritz
 Schulte <mtesseract@silverratio.net>.
 
-License
-=======
+### License
 
 This code is licensed under the terms of the BSD3 license. See the
 file LICENSE for details.
