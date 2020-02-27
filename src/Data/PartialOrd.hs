@@ -30,7 +30,9 @@ import Prelude (Int, Integer, Float, Double, ($), Integral)
 import qualified Data.Ord as Ord
 import qualified Data.Eq as Eq
 import qualified Data.List as List
+#if EXTRA_INSTANCES
 import qualified Data.Set as Set
+#endif
 import qualified Data.Foldable as Foldable
 
 class PartialOrd a where
@@ -82,9 +84,11 @@ instance PartialOrd Double where
 instance PartialOrd Float where
   (<=) = (Ord.<=)
 
+#if EXTRA_INSTANCES
 -- | Define the partial order in terms of the subset relation.
 instance (Ord.Ord a) => PartialOrd (Set.Set a) where
   (<=) = Set.isSubsetOf
+#endif
 
 -- | Define the partial order in terms of the sublist relation.
 instance PartialOrd a => PartialOrd [a] where
