@@ -5,7 +5,9 @@ import Test.Framework.Providers.HUnit (testCase)
 import Test.Framework.Providers.QuickCheck2 (testProperty)
 import Data.List
 import Data.Ord
+#if EXTRA_INSTANCES
 import qualified Data.Set as S
+#endif
 import qualified Data.PartialOrd as PO
 import Test.HUnit ((@?=))
 
@@ -56,6 +58,7 @@ tests =
     , testProperty "antisymmetry"
       (\ a b -> prop_antisymmetry (a :: [Int]) (b :: [Int]))
     ]
+#if EXTRA_INSTANCES
   , testGroup "Set Properties"
     [
       testProperty "=="
@@ -83,7 +86,7 @@ tests =
     , testProperty "antisymmetry"
       (\ a b -> prop_antisymmetry (a :: S.Set Int) (b :: S.Set Int))
     ]
-
+#endif
   , testGroup "Maxima & Minima"
     [
       testProperty "maxima exist"
