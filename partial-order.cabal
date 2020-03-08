@@ -1,5 +1,5 @@
 name:                partial-order
-version:             0.1.2.2
+version:             0.2.0.0
 synopsis:            Provides typeclass suitable for types admitting a partial order
 description:         This packages provides the PartialOrd typeclass suitable for
                      types admitting a partial order.
@@ -15,7 +15,7 @@ license:             BSD3
 license-file:        LICENSE
 author:              Moritz Clasmeier
 maintainer:          mtesseract@silverratio.net
-copyright:           (c) 2016-2019 Moritz Clasmeier
+copyright:           (c) 2016-2020 Moritz Clasmeier
 category:            Data
 build-type:          Simple
 -- extra-source-files:

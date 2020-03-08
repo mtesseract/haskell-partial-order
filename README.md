@@ -38,7 +38,7 @@ Also, we have:
 ### Contact
 
 In case of questions, feel free to contact the maintainer Moritz
-Schulte <mtesseract@silverratio.net>.
+Clasmeier <mtesseract@silverratio.net>.
 
 ### License
 
